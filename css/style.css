@@ -8,6 +8,12 @@ body {
     background-color: white;
 }
 
+@media only screen and (max-width: 573px) {
+	.container {
+		background-image: url(https://st.depositphotos.com/1710382/2977/i/950/depositphotos_29770843-stock-photo-clear-empty-photographer-studio-background.jpg);
+	}
+  }
+
 #tituloDestaque {
 
 	font-family: Arial, Helvetica, sans-serif;
@@ -32,6 +38,13 @@ body {
     box-shadow: black 2px 2px 5px;
     margin-top: 14px;
 }
+
+@media only screen and (max-width: 574px) {
+	#cabecalho {
+		background-color: white;
+		;
+	}
+  }
 
 h1 {
 	display: flex;
@@ -66,6 +79,13 @@ img {
 	  border-radius: 10px;
 	  margin-bottom: 40px;
 	  box-shadow: black 2px 2px 5px
+  }
+
+  @media only screen and (max-width: 574px) {
+	#navbar {
+		background-color: white;
+		;
+	}
   }
 
   #link{
