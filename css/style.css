@@ -14,7 +14,14 @@ body {
 	display: flex;
 	justify-content: center;
 	text-shadow: gray 1px 1px 5px;
+	margin-bottom:3%;
 }
+
+@media only screen and (max-width: 1200px) {
+	#tituloDestaque {
+		margin-bottom: 5%;
+	}
+  }
 
 #cabecalho {
 
@@ -43,11 +50,73 @@ img {
 }
 
 #first-text {
-    margin-top:-5%
+	margin-top:-5%;
+	font-size: 36px;
 }
 
 @media only screen and (max-width: 1200px) {
 	#first-text {
 		margin-top: -2px;
+	}
+  }
+
+  #navbar{
+	  background-color: white;
+	  border: black 1px solid;
+	  border-radius: 10px;
+	  margin-bottom: 40px;
+	  box-shadow: black 2px 2px 5px
+  }
+
+  #link{
+	color:#B8860B;
+	font-family: 'Segoe-UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .navbar-nav > li{
+	padding-left:90px;
+	padding-right:90px;
+  }
+
+  @media only screen and (max-width: 1200px) {
+	.navbar-nav > li {
+		padding-left: 30px;
+	}
+  }
+
+  #card-noticia {
+	border: gray 1px solid;
+	margin-left: 33px;
+	margin-right: 10px;
+	box-shadow: black 2px 2px 3px;
+	border-radius: 10px;
+  }
+
+  @media only screen and (max-width: 1196px) {
+	#card-noticia {
+		margin-left: 0px;
+	}
+  }
+
+  #card-noticia img {
+
+	width: 100%;
+	border-radius: 10px;
+}
+
+h5{
+	text-align: center;
+}
+
+#card-noticia iframe {
+
+	width: 256px;
+    height: 262px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+	#noticias {
+		flex-direction: column;
 	}
   }
