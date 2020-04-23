@@ -188,6 +188,26 @@ h5{
 	}
   }
 
+  #card-saiba {
+	border: gray 1px solid;
+	margin-left: 118%;
+	margin-right: 10px;
+	box-shadow: black 2px 2px 3px;
+	border-radius: 10px;
+  }
+
+  @media only screen and (max-width: 991px) {
+	#card-saiba {
+		margin-left: 5%;
+	}
+  }
+
+  @media only screen and (max-width: 759px) {
+	#card-saiba {
+		margin-left: 12%;
+	}
+  }
+
  
 
   
