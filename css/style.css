@@ -135,8 +135,28 @@ h5{
     border-radius: 10px;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
 	#noticias {
 		flex-direction: column;
+		margin-left: 25%;
 	}
   }
+
+  @media only screen and (max-width: 759px) {
+	#noticias {
+		margin-left: 3%;
+	}
+  }
+
+  @media only screen and (max-width: 320px) {
+	#noticias {
+		margin-left: -8%;
+	}
+  }
+
+#rodape {
+
+	background-color: #ffe6e6;
+	margin-top: 6%;
+
+}
