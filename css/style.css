@@ -160,3 +160,26 @@ h5{
 	margin-top: 6%;
 
 }
+
+.textoRodape {
+	font-size: 18px;
+	-webkit-text-stroke-width: medium;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 32px;
+    padding-left: 30%;
+	
+}
+
+@media only screen and (max-width: 425px) {
+	.textoRodape {
+		padding-left: 4%;
+	}
+  }
+
+  @media only screen and (max-width: 480px) {
+	.textoRodape {
+		padding-left: 2%;
+	}
+  }
+
+  
